@@ -242,3 +242,17 @@ footer {
     .nav-links { display: none; }
     .features-grid { grid-template-columns: 1fr; }
 }
+/* Logo styling */
+.nav-logo-img {
+    height: 30px; /* Navbar ke hisab se perfect height */
+    width: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 4px; /* Optional: halka sa corner round karne ke liye */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
